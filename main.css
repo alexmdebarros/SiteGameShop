@@ -27,6 +27,10 @@ header nav li a{
     color: #ecf0f1; /*define cor da letra do menu links*/
     text-decoration: none; /*remove o sublinhado do link no menu*/
 }
+header nav li a:hover {
+    background-color: #2b52bc;
+    border-radius: 20px;
+}
 .container {
     max-width: 1280px; /*definindo largura máxima do conteiner*/
     width: 100%; /*ocupa 100% da largura até chegar a max-width*/
